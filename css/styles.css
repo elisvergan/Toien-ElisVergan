@@ -1,0 +1,112 @@
+header  {
+    position: sticky;  /* intente darle position sticky como dijo el profe en clase pero no logro que quede el menu en sticky */
+     
+} 
+
+.bodyBackground {
+    background-color: rgb(0, 0, 0);
+}
+
+h1  {
+    color: rgb(242, 245, 76);
+    /* background-color: rgba(128, 66, 66, 0.603); */
+    font-size: 70px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    
+}
+
+.font {
+    font-family: 'Playfair Display', serif;
+    color: rgb(242, 245, 76);
+}
+
+.font2  {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(242, 245, 76);
+}
+
+ul  {
+    list-style: none;
+    text-align: right;
+    
+    
+}
+
+.listaMenu  {
+    display: inline-block;
+    margin-right: 7px;
+    
+}
+
+.size   {
+    font-size: 40px;
+}
+
+.footerFont {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    color: rgb(242, 245, 76);
+        
+}
+
+.listaTiendaOnline  {
+    text-align: left;
+    list-style-type: circle;
+    
+} /* tuve que hacer esta lista porque al cambiar el formato de las ul me cambiaba tambien esta lista */
+
+a   {
+    text-decoration: none;
+    color: rgb(242, 245, 76);
+}
+
+.parallax { /* se ve solo en una pantalla chica por ahora jaja*/
+
+    background-image: url("../img/portada\ toien.jpg");
+    height: 600px;
+    
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+       
+     margin-bottom:50px;
+   }
+
+.card1   {
+    margin: 50px;
+       
+}
+
+.card2   {
+    margin: 50px;
+  
+}
+
+.card3   {
+    margin: 50px
+
+}
+
+.card4  {
+    margin: 50px
+
+}
+
+.datos1 {
+    margin: 5px;
+}
+
+.datos2 {
+    margin: 5px;
+}
+
+.datos3 {
+    margin: 5px;
+}
+
+.datos4 {
+    margin-top: 10px;
+}
+
