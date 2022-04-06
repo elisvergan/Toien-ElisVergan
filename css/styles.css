@@ -26,16 +26,19 @@ h1  {
     color: rgb(242, 245, 76);
 }
 
-ul  {
+.textCenter {
+    text-align: center;
+}
+
+.menuFlex  {
+    display: flex;
+    justify-content: flex-end;
     list-style: none;
-    text-align: right;
-    
     
 }
 
 .listaMenu  {
-    display: inline-block;
-    margin-right: 7px;
+    margin-right: 10px;
     
 }
 
@@ -47,6 +50,7 @@ ul  {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: center;
     color: rgb(242, 245, 76);
+    font-size: 30px;
         
 }
 
@@ -66,33 +70,13 @@ a   {
     background-image: url("../img/portada\ toien.jpg");
     height: 600px;
     
-     background-attachment: fixed;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-       
-     margin-bottom:50px;
-   }
-
-.card1   {
-    margin: 50px;
-       
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:50px;
 }
 
-.card2   {
-    margin: 50px;
-  
-}
-
-.card3   {
-    margin: 50px
-
-}
-
-.card4  {
-    margin: 50px
-
-}
 
 .datos1 {
     margin: 5px;
@@ -108,5 +92,125 @@ a   {
 
 .datos4 {
     margin-top: 10px;
+}
+
+.card1-flex {
+    display: flex;
+}
+
+#grid {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "titulo titulo"
+        "logo info"
+        "footer footer";
+    grid-template-rows: 1px 200px 1fr 60px;
+    grid-template-columns: auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+header#headerGrid {
+    grid-area: header;
+}
+
+h1#h1Grid {
+    grid-area: titulo;
+}
+
+div#logo {
+    grid-area: logo;
+}
+
+div#info {
+    grid-area: info;
+}
+
+footer  {
+    grid-area: footer;
+}
+
+#grid2 {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "titulo"
+        "trabajos"
+        "footer";
+    
+    grid-template-columns: auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+header#headerGrid2 {
+    grid-area: header;
+}
+
+h1#h1Grid2 {
+    grid-area: titulo;
+}
+
+div#trabajos {
+    grid-area: trabajos;
+}
+
+.flexTrabajos   {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.infoFlex   {
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 1023px){
+    #grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #grid2  {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media  (max-width: 768px)  {
+    #grid   {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #logo   {
+        max-width: fit-content;
+        align-items: center;
+    }
+    #info   {
+        text-align: center;
+    }
+    #grid2  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .trabajo1   {
+        max-width: fit-content;
+    }
+    .trabajo2   {
+        max-width: fit-content;
+    }
+    .trabajo3   {
+        max-width: fit-content;
+    }
+    .trabajo4   {
+        max-width: fit-content;
+    }
+}
+
+@media (max-width: 320px)   {
+    
 }
 
