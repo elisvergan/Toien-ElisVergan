@@ -4,7 +4,7 @@ header  {
 } 
 
 .bodyBackground {
-    background-color: rgb(0, 0, 0);
+    background-image: radial-gradient(pink, black);
 }
 
 h1  {
@@ -37,8 +37,13 @@ h1  {
     
 }
 
-.listaMenu  {
-    margin-right: 10px;
+.listaMenu {
+    margin-right: 20px;
+}
+
+.listaMenu:hover  {
+    
+    transform: scale(1.5);
     
 }
 
@@ -77,6 +82,9 @@ a   {
     margin-bottom:50px;
 }
 
+img:hover   {
+    transform: scale(1.5);
+}
 
 .datos1 {
     margin: 5px;
