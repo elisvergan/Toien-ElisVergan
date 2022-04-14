@@ -30,16 +30,16 @@ h1  {
     text-align: center;
 }
 
-.menuFlex  {
+/* .menuFlex  {
     display: flex;
     justify-content: flex-end;
     list-style: none;
     
-}
+} */
 
-.listaMenu {
+/* .listaMenu {
     margin-right: 20px;
-}
+} */
 
 .listaMenu:hover  {
     
@@ -49,6 +49,7 @@ h1  {
 
 .size   {
     font-size: 40px;
+    
 }
 
 .footerFont {
@@ -84,6 +85,7 @@ a   {
 
 img:hover   {
     transform: scale(1.5);
+    transition-duration: 0.5s;
 }
 
 .datos1 {
@@ -106,7 +108,19 @@ img:hover   {
     display: flex;
 }
 
-#grid {
+.flexTrabajos   {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.infoFlex   {
+    display: flex;
+    align-items: center;
+}
+
+/* #grid {
     display: grid;
     grid-template-areas:
         "header header"
@@ -162,22 +176,12 @@ h1#h1Grid2 {
 
 div#trabajos {
     grid-area: trabajos;
-}
-
-.flexTrabajos   {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-}
-
-.infoFlex   {
-    display: flex;
-    align-items: center;
-}
+} */
 
 
-@media (max-width: 1023px){
+
+
+/* @media (max-width: 1023px){
     #grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -220,5 +224,5 @@ div#trabajos {
 
 @media (max-width: 320px)   {
     
-}
+} */
 
