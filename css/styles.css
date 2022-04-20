@@ -1,8 +1,3 @@
-header  {
-    position: sticky;  /* intente darle position sticky como dijo el profe en clase pero no logro que quede el menu en sticky */
-     
-} 
-
 .bodyBackground {
     background-image: radial-gradient(pink, black);
 }
@@ -30,17 +25,6 @@ h1  {
     text-align: center;
 }
 
-/* .menuFlex  {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    
-} */
-
-/* .listaMenu {
-    margin-right: 20px;
-} */
-
 .listaMenu:hover  {
     
     transform: scale(1.5);
@@ -64,14 +48,14 @@ h1  {
     text-align: left;
     list-style-type: circle;
     
-} /* tuve que hacer esta lista porque al cambiar el formato de las ul me cambiaba tambien esta lista */
+}
 
 a   {
     text-decoration: none;
     color: rgb(242, 245, 76);
 }
 
-.parallax { /* se ve solo en una pantalla chica por ahora jaja*/
+.parallax {
 
     background-image: url("../img/portada\ toien.jpg");
     height: 600px;
@@ -83,7 +67,7 @@ a   {
     margin-bottom:50px;
 }
 
-img:hover   {
+.logoHover:hover   {
     transform: scale(1.5);
     transition-duration: 0.5s;
 }
@@ -119,110 +103,3 @@ img:hover   {
     display: flex;
     align-items: center;
 }
-
-/* #grid {
-    display: grid;
-    grid-template-areas:
-        "header header"
-        "titulo titulo"
-        "logo info"
-        "footer footer";
-    grid-template-rows: 1px 200px 1fr 60px;
-    grid-template-columns: auto;
-    row-gap: 10px;
-    column-gap: 10px;
-}
-
-header#headerGrid {
-    grid-area: header;
-}
-
-h1#h1Grid {
-    grid-area: titulo;
-}
-
-div#logo {
-    grid-area: logo;
-}
-
-div#info {
-    grid-area: info;
-}
-
-footer  {
-    grid-area: footer;
-}
-
-#grid2 {
-    display: grid;
-    grid-template-areas:
-        "header"
-        "titulo"
-        "trabajos"
-        "footer";
-    
-    grid-template-columns: auto;
-    row-gap: 10px;
-    column-gap: 10px;
-}
-
-header#headerGrid2 {
-    grid-area: header;
-}
-
-h1#h1Grid2 {
-    grid-area: titulo;
-}
-
-div#trabajos {
-    grid-area: trabajos;
-} */
-
-
-
-
-/* @media (max-width: 1023px){
-    #grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    #grid2  {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media  (max-width: 768px)  {
-    #grid   {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #logo   {
-        max-width: fit-content;
-        align-items: center;
-    }
-    #info   {
-        text-align: center;
-    }
-    #grid2  {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .trabajo1   {
-        max-width: fit-content;
-    }
-    .trabajo2   {
-        max-width: fit-content;
-    }
-    .trabajo3   {
-        max-width: fit-content;
-    }
-    .trabajo4   {
-        max-width: fit-content;
-    }
-}
-
-@media (max-width: 320px)   {
-    
-} */
-
