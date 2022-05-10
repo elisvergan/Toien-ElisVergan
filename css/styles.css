@@ -1,22 +1,18 @@
-header {
-  position: sticky; }
-
 .bodyBackground {
   background-image: radial-gradient(pink, black); }
 
 h1 {
   color: #f2f54c;
-  /* background-color: rgba(128, 66, 66, 0.603); */
   font-size: 70px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   text-align: center; }
 
 .font {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #f2f54c; }
 
 .font2 {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
   color: #f2f54c; }
 
 .textCenter {
@@ -26,7 +22,7 @@ h1 {
   font-size: 40px; }
 
 .footerFont {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
   text-align: center;
   color: #f2f54c;
   font-size: 30px; }
