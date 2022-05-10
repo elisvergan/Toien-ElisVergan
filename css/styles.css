@@ -48,20 +48,11 @@ img:hover {
   transform: scale(1.5);
   transition-duration: 0.5s; }
 
-.datos1 {
-  margin: 5px; }
-
-.datos2 {
-  margin: 5px; }
-
-.datos3 {
+.datos1, .datos2, .datos3 {
   margin: 5px; }
 
 .datos4 {
   margin-top: 10px; }
-
-.card1-flex {
-  display: flex; }
 
 .flexTrabajos {
   display: flex;

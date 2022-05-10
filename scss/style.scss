@@ -55,7 +55,7 @@ a   {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom:50px;
+    margin-bottom:$separacion-margin*10;
 }
 
 img:hover   {
@@ -63,24 +63,12 @@ img:hover   {
     transition-duration: 0.5s;
 }
 
-.datos1 {
-    margin: $separacion-margin;
-}
-
-.datos2 {
-    margin: $separacion-margin;
-}
-
-.datos3 {
+.datos1, .datos2, .datos3 {
     margin: $separacion-margin;
 }
 
 .datos4 {
-    margin-top: $separacion-margintop;
-}
-
-.card1-flex {
-    display: flex;
+    margin-top: $separacion-margin*2;
 }
 
 .flexTrabajos   {
